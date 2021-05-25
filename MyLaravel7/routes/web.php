@@ -7,3 +7,5 @@ Route::get('/', function () {
 });
 
 Route:: get('home', 'TestController@home') -> name("home");
+
+Route:: get('ospite{id}', 'TestController@show') -> name("show-ospite");

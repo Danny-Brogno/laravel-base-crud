@@ -31,20 +31,50 @@ body {
 
     h1 {
       font-size: 50px;
-    } // END OF H1
+    }
+
+    .fa-yandex-international {
+      animation: mutatio 2s linear infinite;
+    }
+
+    @keyframes mutatio {
+      0% {text-shadow: 0 0 navy;}
+      25% {text-shadow: 1px 0 navy, 2px 0 navy, 3px 0 navy, 4px 0 navy, 5px 0 navy; }
+      50% {text-shadow: 0 0 navy;}
+      75% {text-shadow: -1px 0 lime, -2px 0 lime, -3px 0 lime, -4px 0 lime, -5px 0 lime; }
+      100% {text-shadow: 0 0 lime;}
+
+      from {transform: rotateY(0deg);}
+      to {transform: rotateY(-360deg);}
+    }
+
+    span {
+      font-size: 23px;
+    }
+
+    span:first-of-type {
+      color: grey;
+    }
+
+    span:nth-child(2) {
+      color: lightgrey;
+    }
 
   } // END OF .CONTAINER
 
-  .container span:first-of-type {
-    color: gold;
-  }
+  .ospite-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
-  .container span:nth-child(2) {
-    color: orange;
-  }
+    h3 {
+      font-size: 50px;
+    }
 
-  .container span:last-of-type {
-    color: lime;
+    h3:first-of-type {
+      margin-right: 30px;
+    }
   }
 
 } // END OF BODY

@@ -33,15 +33,95 @@ body .container h1 {
   font-size: 50px;
 }
 
+body .container .fa-yandex-international {
+  -webkit-animation: mutatio 2s linear infinite;
+          animation: mutatio 2s linear infinite;
+}
+
+@-webkit-keyframes mutatio {
+  0% {
+    text-shadow: 0 0 navy;
+  }
+
+  25% {
+    text-shadow: 1px 0 navy, 2px 0 navy, 3px 0 navy, 4px 0 navy, 5px 0 navy;
+  }
+
+  50% {
+    text-shadow: 0 0 navy;
+  }
+
+  75% {
+    text-shadow: -1px 0 lime, -2px 0 lime, -3px 0 lime, -4px 0 lime, -5px 0 lime;
+  }
+
+  100% {
+    text-shadow: 0 0 lime;
+  }
+
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+@keyframes mutatio {
+  0% {
+    text-shadow: 0 0 navy;
+  }
+
+  25% {
+    text-shadow: 1px 0 navy, 2px 0 navy, 3px 0 navy, 4px 0 navy, 5px 0 navy;
+  }
+
+  50% {
+    text-shadow: 0 0 navy;
+  }
+
+  75% {
+    text-shadow: -1px 0 lime, -2px 0 lime, -3px 0 lime, -4px 0 lime, -5px 0 lime;
+  }
+
+  100% {
+    text-shadow: 0 0 lime;
+  }
+
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+body .container span {
+  font-size: 23px;
+}
+
 body .container span:first-of-type {
-  color: gold;
+  color: grey;
 }
 
 body .container span:nth-child(2) {
-  color: orange;
+  color: lightgrey;
 }
 
-body .container span:last-of-type {
-  color: lime;
+body .ospite-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+body .ospite-container h3 {
+  font-size: 50px;
+}
+
+body .ospite-container h3:first-of-type {
+  margin-right: 30px;
 }
 

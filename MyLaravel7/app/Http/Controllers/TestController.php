@@ -15,4 +15,10 @@ class TestController extends Controller {
 
   } // END OF HOME FUNCTION
 
+  public function show($id) {
+
+    $ospite = Ospite::find($id);
+    return view("pages.ospite", compact("ospite"));
+  }
+
 } // END OF TESTCONTROLLER
