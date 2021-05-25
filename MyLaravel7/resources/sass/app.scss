@@ -17,19 +17,34 @@ a {
 
 body {
   height: 100vh;
-  background: linear-gradient(to bottom right, #388E8E, #000080);
+  background: linear-gradient(to bottom right, darkred, black);
   background-repeat: no-repeat;
   color: white;
+
+
 
   .container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
     h1 {
       font-size: 50px;
-
     } // END OF H1
 
   } // END OF .CONTAINER
+
+  .container span:first-of-type {
+    color: gold;
+  }
+
+  .container span:nth-child(2) {
+    color: orange;
+  }
+
+  .container span:last-of-type {
+    color: lime;
+  }
 
 } // END OF BODY

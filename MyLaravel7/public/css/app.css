@@ -17,7 +17,7 @@ a {
 
 body {
   height: 100vh;
-  background: linear-gradient(to bottom right, #388E8E, #000080);
+  background: linear-gradient(to bottom right, darkred, black);
   background-repeat: no-repeat;
   color: white;
 }
@@ -25,9 +25,23 @@ body {
 body .container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 body .container h1 {
   font-size: 50px;
+}
+
+body .container span:first-of-type {
+  color: gold;
+}
+
+body .container span:nth-child(2) {
+  color: orange;
+}
+
+body .container span:last-of-type {
+  color: lime;
 }
 
