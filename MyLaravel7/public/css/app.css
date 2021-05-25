@@ -40,23 +40,23 @@ body .container .fa-yandex-international {
 
 @-webkit-keyframes mutatio {
   0% {
-    text-shadow: 0 0 navy;
+    text-shadow: 0 0 grey;
   }
 
   25% {
-    text-shadow: 1px 0 navy, 2px 0 navy, 3px 0 navy, 4px 0 navy, 5px 0 navy;
+    text-shadow: 1px 0 grey, 2px 0 grey, 3px 0 grey, 4px 0 grey, 5px 0 grey;
   }
 
   50% {
-    text-shadow: 0 0 navy;
+    text-shadow: 0 0 grey;
   }
 
   75% {
-    text-shadow: -1px 0 lime, -2px 0 lime, -3px 0 lime, -4px 0 lime, -5px 0 lime;
+    text-shadow: -1px 0 lightgray, -2px 0 lightgray, -3px 0 lightgray, -4px 0 lightgray, -5px 0 lightgray;
   }
 
   100% {
-    text-shadow: 0 0 lime;
+    text-shadow: 0 0 lightgray;
   }
 
   from {
@@ -70,23 +70,23 @@ body .container .fa-yandex-international {
 
 @keyframes mutatio {
   0% {
-    text-shadow: 0 0 navy;
+    text-shadow: 0 0 grey;
   }
 
   25% {
-    text-shadow: 1px 0 navy, 2px 0 navy, 3px 0 navy, 4px 0 navy, 5px 0 navy;
+    text-shadow: 1px 0 grey, 2px 0 grey, 3px 0 grey, 4px 0 grey, 5px 0 grey;
   }
 
   50% {
-    text-shadow: 0 0 navy;
+    text-shadow: 0 0 grey;
   }
 
   75% {
-    text-shadow: -1px 0 lime, -2px 0 lime, -3px 0 lime, -4px 0 lime, -5px 0 lime;
+    text-shadow: -1px 0 lightgray, -2px 0 lightgray, -3px 0 lightgray, -4px 0 lightgray, -5px 0 lightgray;
   }
 
   100% {
-    text-shadow: 0 0 lime;
+    text-shadow: 0 0 lightgray;
   }
 
   from {
@@ -123,5 +123,23 @@ body .ospite-container h3 {
 
 body .ospite-container h3:first-of-type {
   margin-right: 30px;
+}
+
+body .otherInfo {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  line-height: 200%;
+}
+
+body .otherInfo h3:nth-child(odd) {
+  color: grey;
+}
+
+body .otherInfo h3:nth-child(even) {
+  color: lightgray;
 }
 
