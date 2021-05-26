@@ -98,4 +98,42 @@ body {
 
   } // END OF .otherInfo
 
+  .form {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+    .actualForm {
+      line-height: 200%;
+      display:flex;
+      flex-direction: column;
+
+      input {
+        height: 30px;
+      }
+
+      #sub {
+        height: 40px;
+        margin-top: 20px;
+        background-color: grey;
+        border: none;
+        border-radius: 5px;
+      }
+
+    }// END OF .ACTUALFORM
+
+
+  } // END OF .FORM
+
+  .dannyButton {
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+  }
+
+
 } // END OF BODY
